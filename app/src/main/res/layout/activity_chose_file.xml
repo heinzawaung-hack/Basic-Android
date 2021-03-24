@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        android:weightSum="10"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ChoseFile">
+
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:text="@string/email"
+            android:id="@+id/editTextTextEmailAddress"
+            android:autofillHints=""
+            android:layout_marginTop="10sp"
+            tools:ignore="LabelFor"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:layout_marginTop="20sp"
+            android:inputType="textPersonName"
+            android:text="@string/email_subject"
+            android:id="@+id/editTextTextPersonName"
+            android:autofillHints="" tools:ignore="LabelFor"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:inputType="textPersonName"
+            android:text="@string/message"
+            android:ems="10"
+            android:id="@+id/editMessage"
+            tools:ignore="LabelFor"
+            android:layout_marginTop="20sp"
+            android:autofillHints=""/>
+    <Button
+            android:text="@string/send_email_data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sendMailData"
+            android:layout_marginTop="10sp"
+            android:layout_marginLeft="300sp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginStart="300sp"/>
+
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Linux</string>
+    <string name="flash_screen">Welcome to flash screen activity, You can download lessons videos မင်္ဂလာပါခင်ဗျ
+    </string>
+    <string name="for_main">Android Developer MayMyo</string>
+
+    <string name="phone_Call">Phone Call</string>
+    <string name="send_email">Send Email</string>
+    <string name="video_play">Video Play</string>
+    <string name="send_drawable">Send Drawable</string>
+    <string name="internal_memory">Internal Memory</string>
+
+    <string name="textView_chose">Text Chose</string>
+    <string name="go">Go To Home</string>
+    <string name="call_phone">Call Phone</string>
+    <string name="check_bill">Check Bill</string>
+    <string name="chose_file">Chose File</string>
+    <string name="browse">Browse</string>
+
+    <string name="email_subject">Subject</string>
+    <string name="email">Email</string>
+    <string name="message">Message</string>
+    <string name="send_email_data">Send</string>
+
+    <string name="play_pause">Play/Pause</string>
+</resources>

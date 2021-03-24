@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:background="@color/mediumSpring"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".Main">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:id="@+id/One"
+              android:text="@string/for_main"
+              android:gravity="center"
+              android:textSize="20sp"
+              android:textColor="#000"
+
+    />
+
+    <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="20sp"
+            android:id="@+id/radioGroup"
+            android:layout_marginStart="20sp">
+
+        <RadioButton style="@style/radioStyle"
+                     android:id="@+id/radioButtonPhoneCall"
+                     android:text="@string/phone_Call"
+        />
+
+        <RadioButton style="@style/radioStyle"
+                     android:id="@+id/radioButtonSendEmail"
+                     android:text="@string/send_email"
+        />
+
+        <RadioButton style="@style/radioStyle"
+                     android:id="@+id/radioButtonVideoPlay"
+                     android:text="@string/video_play"
+        />
+
+        <RadioButton style="@style/radioStyle"
+                     android:id="@+id/radioButtonSendDrawable"
+                     android:text="@string/send_drawable"
+        />
+
+        <RadioButton style="@style/radioStyle"
+                     android:id="@+id/radioButtonInternalPicture"
+                     android:text="@string/internal_memory"
+        />
+
+    </RadioGroup>
+
+    <TextView android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/textView_chose"
+              android:id="@+id/textViewChose"
+              android:layout_marginLeft="30sp"
+              android:layout_marginStart="30sp"
+              android:textColor="#000"
+              android:layout_marginTop="20sp"
+              android:textSize="20sp"
+    />
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/buttonGo"
+            android:text="@string/go"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginStart="20sp"
+    />
+
+</LinearLayout>
